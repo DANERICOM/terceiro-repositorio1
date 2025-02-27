@@ -1,0 +1,18 @@
+/*Definindo a fonte*/
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+:root{
+   --cor-principal: #2C7AB4;
+   --cor1: #845ec2;
+   --cor2: #4e8397;
+   --cor3: #d5cabd;
+   --preto: #000000;
+   --branco: #FFFFFF;
+}
+
+body{
+    font-size: 1rem;
+    font-family: 'Calistoga'
+}
