@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-   --cor-principal: #2C7AB4;
-   --cor1: #845ec2;
-   --cor2: #4e8397;
-   --cor3: #d5cabd;
+   --cor-principal: #00bf63;
+   --cor1: #eaecdf;
+   --cor2: #798354;
+   --cor3: #6f9b7a;
    --preto: #000000;
    --branco: #FFFFFF;
 }
