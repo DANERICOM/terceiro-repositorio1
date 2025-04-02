@@ -15,6 +15,21 @@ body{
     font-family: 'Montserrat';/*nome fonte*/
 }
 
+section{
+    padding-bottom: 5rem;
+}
+
+.display-4{
+    text-shadow: -5px 5px var(--cor1);
+}
+
+#SaposCururus{
+    position: relative;
+    padding-top: 5rem;
+    margin-top: 3rem;
+    
+}
+
 #contato{
     background: var(--cor-principal);
     background-size: cover;
