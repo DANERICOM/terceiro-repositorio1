@@ -28,7 +28,7 @@ section{
     padding-top: 5rem;
     margin-top: 3rem;
     background: var(--cor2);
-    background-size: 180px 180px; /* ajuste o tamanho conforme necessário */
+    background-size: 120px 120px; /* ajuste o tamanho conforme necessário */
 }
 
 #SaposCururus.container{
