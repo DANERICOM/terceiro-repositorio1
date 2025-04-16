@@ -48,14 +48,15 @@ header{
     gap:1rem;
 }
 
-.botao-inicio{
+/*tirando só pra ver oq dá*/
+/*.botao-inicio{
     background-color: var(--cor3);
     border-radius: 30px;
     border: none;
     width: 14em;
     height: 3em;
     align-content: center;
-}
+}*/
 
 .display-4{
     text-shadow: -5px 5px var(--cor2);
