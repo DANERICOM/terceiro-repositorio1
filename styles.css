@@ -48,15 +48,15 @@ header{
     gap:1rem;
 }
 
-/*tirando só pra ver oq dá*/
-/*.botao-inicio{
+
+.botao-inicio{
     background-color: var(--cor3);
     border-radius: 30px;
     border: none;
     width: 14em;
     height: 3em;
     align-content: center;
-}*/
+}
 
 .display-4{
     text-shadow: -5px 5px var(--cor2);
@@ -126,4 +126,39 @@ header{
 
 .apresenta-lista{
     display: none;
+}
+
+.alto-contraste{
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+.alto-contraste header,
+.alto-contraste footer,
+.alto-contraste .formulario{
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+.alto-contraste .nav-link{
+    color: var(--cor2);
+}
+
+.alto-contraste .botao-inicio,
+.alto-contraste .formulario button,
+.alto-contraste .btn-primary{
+    background-color: var(--cor3);
+    color: var(--preto);
+}
+
+.alto-contraste #SaposCururus{
+    background: none;
+}
+
+.alto-contraste #galeria{
+    background-color: var(--preto);
+}
+
+.alto-contraste .fundo-galeria{
+    background: none;
 }
