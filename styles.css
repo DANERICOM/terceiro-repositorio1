@@ -85,36 +85,36 @@ header{
 }
 
 .formulario{
-    background-color: var(--cor1);/*--branco*/
+    background-color: var(--branco);
     padding: 2rem;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
     font-weight: bold;
 }
 
-.formulario button{
+.formulario button {
     background-color: var(--cor3);
     border: none;
     font-weight: bold;
 }
 
-.form-control{
+.form-control {
     background-color: var(--cor2);
 }
 
-.menu-acessibilidade{
+.menu-acessibilidade {
     position: fixed;
     top: 2rem;
     right: 20px;
     z-index: 1000;
 }
 
-.rotacao-botao{
+.rotacao-botao {
     transform: rotate(-90deg);
     transform-origin: right center;
 }
 
-.opcoes-acessibilidade{
+.opcoes-acessibilidade {
     margin-top: 10px;
     display: flex;
     flex-direction: column;
@@ -124,7 +124,7 @@ header{
     margin-bottom: 5px;
 }
 
-.apresenta-lista{
+.apresenta-lista {
     display: none;
 }
 
@@ -135,26 +135,26 @@ header{
 
 .alto-contraste header,
 .alto-contraste footer,
-.alto-contraste .formulario{
+.alto-contraste .formulario {
     background-color: var(--preto);
     color: var(--branco);
 }
 
-.alto-contraste .nav-link{
-    color: var(--cor2);
+.alto-contraste .nav-link {
+    color: var(--laranja-claro);
 }
 
 .alto-contraste .botao-inicio,
 .alto-contraste .formulario button,
-.alto-contraste .btn-primary{
-    background-color: var(--cor3);
+.alto-contraste .btn-primary {
+    background-color: var(--laranja-claro);
     color: var(--preto);
 }
 
-.alto-contraste #SaposCururus{
+.alto-contraste #tropicalia {
     background: none;
 }
 
-.alto-contraste #galeria{
+.alto-contraste #galeria {
     background-color: var(--preto);
 }
